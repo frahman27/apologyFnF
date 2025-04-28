@@ -75,3 +75,10 @@ function typeLetter() {
   }
 }
 window.onload = typeLetter;
+document.addEventListener('click', function() {
+  const music = document.getElementById('background-music');
+  music.play().catch((e) => {
+    console.log('Music play prevented:', e);
+  });
+}, { once: true }); // Only needs to happen once
+
