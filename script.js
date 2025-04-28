@@ -62,12 +62,9 @@ function createHeart() {
 setInterval(createHeart, 800);
 
 // Typing Letter
-const letter = `Dear Love,
-Even if I didn’t get all your quiz answers right,
-I know you better with every moment we share.
-You're my favorite adventure.
-I'm sorry, and I love you more every day. 💗
-Always yours, [Your Name]`;
+const letter = `I don't wanna be baburao and be saying
+Utha le re baba
+I'd rather be gwansik so.. <3 `;
 
 let i = 0;
 function typeLetter() {
